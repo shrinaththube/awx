@@ -31,6 +31,8 @@ SRC_ONLY_PKGS ?= cffi,pycparser,psycopg2,twilio,pycurl
 # to install the actual requirements
 VENV_BOOTSTRAP ?= pip==19.3.1 setuptools==41.6.0
 
+
+# testing PR 
 # Determine appropriate shasum command
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)
